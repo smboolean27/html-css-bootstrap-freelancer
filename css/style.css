@@ -9,3 +9,15 @@ header {
   background-color: #1abc9c;
   padding: 60px 0;
 }
+
+/* Sezioni */
+section {
+  padding: 40px 0;
+}
+
+.box_portfolio {
+  margin-top: 25px;
+}
+.box_portfolio__image {
+  width: 100%;
+}
