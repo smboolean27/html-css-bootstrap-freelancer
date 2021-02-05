@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Typo */
 body {
   font-family: 'Lato', sans-serif;
@@ -20,6 +23,10 @@ h1 {
 h2 {
   font-size: 40px;
 }
+small {
+  font-size: 13px;
+}
+
 /* Mix */
 input, textarea {
   padding: 20px 0;
@@ -141,7 +148,7 @@ a:hover {
 
 /* Sezioni */
 section {
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .box_portfolio {
@@ -180,6 +187,29 @@ section {
 .footer_top {
   padding: 40px 0;
 }
+.social_list {
+  padding-left: 0px;
+}
+.social_list li {
+  display: inline-block;
+}
+.social_list li:not(:last-child) {
+  margin-right: 10px;
+}
+.social_list li a {
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  line-height: 46px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.social_list li a:hover {
+  background-color: #fff;
+  color: #2c3e50;
+}
+
 .footer_bottom {
   padding: 20px 0;
 }
