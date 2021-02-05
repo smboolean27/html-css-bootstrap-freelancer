@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- /Google fonts -->
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- /Fontawesome -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- /Bootstrap -->
@@ -17,14 +20,30 @@
   <body>
     <!-- Intestazione -->
     <header class="text_white">
-      <div class="header_top bg_primary">
+      <div class="header_top bg_primary text-uppercase">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6">
-              Start Bootstrap
+            <div class="col-xs-7">
+              <a class="logo" href="#">Start Bootstrap</a>
             </div>
-            <div class="col-xs-6 text-right">
-              Lorem ipsum dolor sit amet
+            <div class="col-xs-5 text-right">
+              <nav class="main_nav visible-md visible-lg">
+                <ul>
+                  <li>
+                    <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <button class="btn btn_mobile hidden-md hidden-lg">
+                Menu <i class="fas fa-bars"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -33,8 +52,11 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 text-center">
-              <img src="https://via.placeholder.com/200" alt="Tizio">
+              <img class="header_hero__img" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="Tizio">
               <h1>START BOOTSTRAP</h1>
+              <div class="divider">
+                <i class="fas fa-star"></i>
+              </div>
               <p>Graphic Artist - Web Designer - Illustrator</p>
             </div>
           </div>
