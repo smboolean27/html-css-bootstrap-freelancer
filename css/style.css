@@ -11,9 +11,13 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 h1 {
   font-size: 64px;
+}
+h2 {
+  font-size: 40px;
 }
 /* Mix */
 .container__small {
@@ -51,7 +55,7 @@ a:hover {
   height: 3px;
   width: 100%;
   max-width: 100px;
-  background-color: #fff;
+  background-color: currentColor;
   border-radius: 5px;
   vertical-align: middle;
 }
@@ -115,7 +119,32 @@ section {
 }
 
 .box_portfolio {
+  position: relative;
   margin-top: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.box_portfolio__overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+.box_portfolio:hover .box_portfolio__overlay {
+  display: block;
+}
+.box_portfolio__overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: #fff;
 }
 .box_portfolio__image {
   width: 100%;
