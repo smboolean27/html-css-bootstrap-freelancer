@@ -1,6 +1,7 @@
 /* Typo */
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 h1,
@@ -59,6 +60,11 @@ a:hover {
   border-radius: 5px;
   vertical-align: middle;
 }
+.mt_30 {
+  margin-top: 30px;
+}
+
+/* Buttons */
 .btn_mobile {
   padding: 10px 15px;
   text-transform: uppercase;
@@ -66,7 +72,14 @@ a:hover {
   background-color: #1abc9c;
   color: #fff;
 }
-.btn_mobile:hover {
+.btn_download {
+  border: 2px solid #fff;
+  background: transparent;
+}
+.btn_download i {
+  margin-right: 10px
+}
+.btn_mobile:hover, .btn_download:hover {
   color: #fff;
 }
 
