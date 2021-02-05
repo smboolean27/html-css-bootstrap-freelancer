@@ -21,6 +21,13 @@ h2 {
   font-size: 40px;
 }
 /* Mix */
+input, textarea {
+  padding: 20px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
 .container__small {
   max-width: 800px;
   width: 70%;
@@ -79,8 +86,14 @@ a:hover {
 .btn_download i {
   margin-right: 10px
 }
-.btn_mobile:hover, .btn_download:hover {
+.btn:hover {
   color: #fff;
+}
+.btn_submit {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 15px 25px;;
+  font-size: 20px;
 }
 
 /* Header*/

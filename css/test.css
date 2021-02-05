@@ -1,16 +1,9 @@
-.btn_primary {
-  background-color: #2c3e50;
-  color: #fff;
+input, textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
 }
-.btn_secondary {
-  background-color: #1abc9c;
-  color: #fff;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: black
-}
-
-.main_nav li {
-  color: green;
+::placeholder {
+   color: #495057;
 }
